@@ -1,0 +1,21 @@
+.createButton {
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  margin-top: 2rem;
+}
+
+.loadingCell {
+  text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mt4 {
+    margin-top: 4rem;
+}

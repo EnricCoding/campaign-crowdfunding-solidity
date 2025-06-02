@@ -1,0 +1,17 @@
+# Node modules
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+
+# Compiled contract artifacts (optional)
+/ethereum/build/
+
+# Local environment files
+.env*
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-error.log*

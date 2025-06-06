@@ -5,7 +5,6 @@ const { Web3 } = require("web3");
 const compiledFactory = require("../ethereum/build/CampaignFactory.json");
 const compiledCampaign = require("../ethereum/build/Campaign.json");
 
-// Iniciar Ganache con opción para contratos grandes
 const server = ganache.server({
   chain: {
     allowUnlimitedContractSize: true,

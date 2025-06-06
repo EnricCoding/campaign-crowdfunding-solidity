@@ -85,7 +85,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/kickstart-ethereum.git
+git clone https://github.com/EnricCoding/campaign-crowdfunding-solidity.git
 cd kickstart-ethereum
 ```
 
@@ -119,17 +119,8 @@ INFURA_KEY="your_infura_project_id"
 1. **Compile** your Solidity contracts:
 
    ```bash
-   truffle compile
+   node deploy.js
    ```
-
-2. **Deploy** to Sepolia via Truffle (adjust `truffle-config.js` if needed):
-
-   ```bash
-   truffle migrate --network sepolia
-   ```
-
-   - This will deploy both `CampaignFactory.sol` and its dependent `Campaign.sol`.
-   - After deployment, note the factory address printed in your console (or stored in `build/CampaignFactory.json`).
 
 ### 5. Run the Next.js App
 
